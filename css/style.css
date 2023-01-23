@@ -232,6 +232,12 @@ aside img {
 footer {
   margin-top: 10px;
 }
+footer > img{
+  float: right;
+  clear: both;
+  float: top;
+  margin-bottom:px;
+}
 
 table {
   font-size: 20px;

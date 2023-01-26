@@ -140,9 +140,11 @@ h3 {
   font-size: 1.1rem;
 }
 
+/*preguntar*/
 p{
   text-align: justify;
 }
+/*preguntar*/
 
 p.titan{
   padding-top: 20px;
@@ -338,6 +340,14 @@ caption {
   text-transform: uppercase;
   text-align: center;
 }
+
+/*preguntar*/
+
+.zeus{
+  padding-left: 100px;
+}
+
+/*preguntar tancat*/
 
 section div {
   text-align: center;

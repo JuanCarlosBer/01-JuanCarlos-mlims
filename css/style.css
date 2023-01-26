@@ -1,3 +1,5 @@
+
+
 html, body {
   margin: 0;
   padding: 0;
@@ -125,6 +127,8 @@ h1 {
 }
 
 h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-size: 1.4rem;
   font-weight: 700;
   text-align: left;
@@ -136,9 +140,34 @@ h3 {
   font-size: 1.1rem;
 }
 
+p{
+  text-align: justify;
+}
+
+p.titan{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 4px solid black;
+}
+
 p, li {
   font-size: 1.1rem;
   line-height: 1.5;
+}
+
+dt{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+dd{
+  text-align: justify;
+}
+
+i{
+  color:#f83212;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 /* || header layout */
@@ -241,8 +270,37 @@ aside a {
   width: 50%;
 }
 
+aside h2{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+}
+
+aside ol li{
+  list-style-type: none;
+  padding-top: 15px;
+  text-align: justify;
+  word-spacing: 2px;
+}
+
+aside ul li{
+  text-align: center;
+}
+
 aside img {
   max-width: 100%;
+  border: 5px solid black;
+}
+
+img.heracles{
+  float: right;
+  padding: 0px;
+  border: 3px solid black;
+}
+
+figcaption{
+  padding-bottom: 10px;
 }
 
 footer {
@@ -265,14 +323,14 @@ table {
 }
 
 td, th {
-  border: 2px solid #ffc435;
+  border: 4px solid black;
   padding: 10px;
   text-align: center;
   background-color: #fef6f5;
 }
 
 caption {
-  border:2px solid #ffc435;
+  border:4px solid black;
   background-color: #7cf3a0;
   font-size: 1.5rem;
   padding: 10px;

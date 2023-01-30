@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>GALLERY</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=GFS+Didot&family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=GFS+Didot&family=Noto+Serif&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="home">
             <ul>
                 <li><a href="home.html">HOME</a></li>
             </ul>
@@ -25,26 +28,57 @@
                 <li><a href="questionnaire.html">QUESTIONNAIRE</a></li>
                 <li><a href="gallery.html">GALLERY</a></li>
                 <li><a href="tableaboutgods.html">TABLE ABOUT GODS</a></li>
-                <li><a href="login.html">LOG IN</a></li>
             </ul>
         </nav>
     </header>
-    <main class="gallery row">
-    <aside>
-        <img class="col-4" srcset="images/ancientgreek.jpeg" alt="Ancient Greek" sizes="(max-width: 300px) 280px, (max-width:480px) 440px, 500px" src="images/ancientgreek.jpeg">
-        <img class="col-4" srcset="images/olympians.jpeg" alt="Olympians" sizes="(max-width: 300px) 280px, (max-width:480px) 440px, 500px" src="images/olympians.jpeg">
-        <img class="col-4" srcset="images/kratos.jpeg" alt="kratos" sizes="(max-width: 300px) 280px, (max-width:480px) 440px, 500px" src="images/kratos.jpeg">
-    </aside>
-    <img class="col-2" srcset="images/heracles.jpeg" alt="Heracles" sizes="(max-width: 300px) 280px, (max-width:480px) 440px, 800px" src="images/heracles.jpeg">
-    <img class="col-2" srcset="images/Arees.jpeg" alt="Arees" sizes="(max-width: 300px) 280px, (max-width:480px) 440px, 800px" src="images/Arees.jpeg">
-    <img class="col-2" srcset="images/Poseidon.jpg" alt="Poseidon" sizes="(max-width: 300px) 280px, (max-width:480px) 440px, 800px" src="images/Poseidon.jpg">
+    <main>
+        <article class="gallery row">
+            <figure class="col-4">
+                <img srcset="images/ancientgreek_320.jpeg 320w, 
+             images/ancientgreek_480.jpeg 480w" sizes="(max-width: 320px) 280px, 
+            (max-width: 480px) 440px" src="images/ancientgreek.jpeg" alt="Ancient Greek">
+                <figcaption>Ancient Greek</figcaption>
+            </figure>
+            <figure class="col-4">
+                <img srcset="images/olympians_320.jpeg 320w, 
+             images/olympians_480.jpeg 480w" sizes="(max-width: 320px) 280px, 
+            (max-width: 480px) 440px" src="images/olympians.jpeg" alt="Olympians">
+                <figcaption>Olympians</figcaption>
+            </figure>
+            <figure class="col-4">
+                <img srcset="images/kratos_320.jpeg 320w, 
+             images/kratos_480.jpeg 480w" sizes="(max-width: 320px) 280px, 
+            (max-width: 480px) 440px" src="images/kratos.jpeg" alt="kratos">
+                <figcaption>Kratos from God Of War</figcaption>
+            </figure>
+            <figure class="col-4">
+                <img srcset="images/Zeus_sculpture_320.jpg 320w, 
+             images/Zeus_sculpture_480.jpg 480w" sizes="(max-width: 320px) 280px, 
+            (max-width: 480px) 440px" src="images/Zeus_sculpture.jpg" alt="Zeus Sculpture">
+                <figcaption>Zeus Sculpture</figcaption>
+            </figure>
+            <figure class="col-4">
+                <img srcset="images/Athena_sculpture_320.jpg 320w, 
+             images/Athena_sculpture_480.jpg 480w" sizes="(max-width: 320px) 280px, 
+            (max-width: 480px) 440px" src="images/Athena_sculpture.jpg" alt="Athena Sculpture">
+                <figcaption>Athena Sculpture</figcaption>
+        </figure>
+            <figure class="col-4">
+                <img srcset="images/Hestia_sculpture_320.jpeg 320w, 
+         images/Hestia_sculpture_480.jpg 480w" sizes="(max-width: 320px) 280px, 
+        (max-width: 480px) 440px" src="images/Hestia_sculpture.jpg" alt="Hestia Sculpture">
+                <figcaption>Hestia Sculpture</figcaption>
+            </figure>
+        </article>
     </main>
     <footer>
         <h2>CONTACT:</h2>
         <img src="images/0bba787cf7b33da0f067fa3844bb6bd8.png" alt="Zeus_logo" height="80" width="100">
-        <p> You can send an email with your opinion or suggestions to: <a href="mailto:jcbapro82@gmail.com">jcbapro82@gmail.com</a></p><br>
+        <p> You can send an email with your opinion or suggestions to: <a
+                href="mailto:jcbapro82@gmail.com">jcbapro82@gmail.com</a></p><br>
         <p> Information about the creator:</p>
-        <p> Hi my name is Juan Carlos and i'm the creator of this webpage, also this is my first webpage and i hope you all enjoy it.</p>
+        <p> Hi my name is Juan Carlos and i'm the creator of this webpage, also this is my first webpage and i hope you
+            all enjoy it.</p>
         <p> Tel: <a href="tel">69808473821</a></p>
     </footer>
 </body>

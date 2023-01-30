@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>QUESTIONNAIRE</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=GFS+Didot&family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=GFS+Didot&family=Noto+Serif&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="home">
             <ul>
                 <li><a href="home.html">HOME</a></li>
             </ul>
@@ -25,21 +28,33 @@
                 <li><a href="questionnaire.html">QUESTIONNAIRE</a></li>
                 <li><a href="gallery.html">GALLERY</a></li>
                 <li><a href="tableaboutgods.html">TABLE ABOUT GODS</a></li>
-                <li><a href="login.html">LOG IN</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <article>
             <h1><u>QUESTIONNAIRE</u></h1>
-            <p>List of questions:</p>
-            <form>
+            <form class="Questionnaire">
                 <fieldset>
                     <legend>List of questions:</legend>
                     <div>
                         <label for="name">Name:</label>
                         <abbr title="required"><strong>*</strong></abbr>
                         <input type="text" id="name" name="Name" required>
+                    </div>
+                    <div>
+                        <label for="date">Date:</label>
+                        <abbr title="required"><strong>*</strong></abbr>
+                        <input type="date" id="date" name="Date" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <abbr title="required"><strong>*</strong></abbr>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="tel">Phone:</label>
+                        <input type="tel" id="tel" name="Tel">
                     </div>
                     <div>
                         <span>What do you prefer?</span>
@@ -91,21 +106,16 @@
                     </div>
                 </fieldset>
             </form>
-            <aside>
-                <h2>Other pages:</h2>
-                <p>Links:</p>
-                <p><a
-                        href="https://es.wikipedia.org/wiki/Wikipedia:Portada">https://es.wikipedia.org/wiki/Wikipedia:Portada</a>
-                </p>
-            </aside>
         </article>
     </main>
     <footer>
         <h2>CONTACT:</h2>
         <img src="images/0bba787cf7b33da0f067fa3844bb6bd8.png" alt="Zeus_logo" height="80" width="100">
-        <p> You can send an email with your opinion or suggestions to: <a href="mailto:jcbapro82@gmail.com">jcbapro82@gmail.com</a></p><br>
+        <p> You can send an email with your opinion or suggestions to: <a
+                href="mailto:jcbapro82@gmail.com">jcbapro82@gmail.com</a></p><br>
         <p> Information about the creator:</p>
-        <p> Hi my name is Juan Carlos and i'm the creator of this webpage, also this is my first webpage and i hope you all enjoy it.</p>
+        <p> Hi my name is Juan Carlos and i'm the creator of this webpage, also this is my first webpage and i hope you
+            all enjoy it.</p>
         <p> Tel: <a href="tel">69808473821</a></p>
     </footer>
 </body>
